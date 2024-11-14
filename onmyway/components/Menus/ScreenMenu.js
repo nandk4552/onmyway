@@ -56,15 +56,6 @@ const ScreenMenu = () => {
               }}
             />
             <Stack.Screen
-              name="RideNavigationScreen"
-              component={RideNavigationScreen}
-              options={{
-                title: "RideNavigationScreen",
-                headerBackTitle: "Back",
-                headerRight: () => <HeaderMenu />,
-              }}
-            />
-            <Stack.Screen
               name="RiderHistoryScreen"
               component={RiderHistoryScreen}
               options={{
